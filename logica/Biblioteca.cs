@@ -1,4 +1,4 @@
-86% de armazenamento usado … Se você atingir o limite, não será possível criar, editar ou fazer upload de arquivos. Aproveite 100 GB de armazenamento por R$ 7,99 R$ 0 durante um mês.
+
 public class Biblioteca : IBiblioteca
 {
 	private List<Pessoa> pessoas = new List<Pessoa>();
