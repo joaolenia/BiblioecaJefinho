@@ -3,10 +3,8 @@ public class Biblioteca : IBiblioteca
 {
 	private List<Pessoa> pessoas = new List<Pessoa>();
 	private List<Emprestimo> emprestimos = new List<Emprestimo>();
-	
 	private List<Livro> livros =new List<Livro>(); 
-	public void AdicionarPessoa(Pessoa pessoa)
-	{
+	public void AdicionarPessoa(Pessoa pessoa){
 		pessoas.Add(pessoa);
 		Console.WriteLine("Pessoa adicionada com sucesso!");
 	}
@@ -82,15 +80,15 @@ public class Biblioteca : IBiblioteca
 		Console.WriteLine("Livro devolvido com sucesso!");
 	}
 
-	public void ListarEmprestimos()
-	{
-		foreach (var emprestimo in emprestimos)
-		{
+	public void ListarEmprestimos(){
+
+		foreach (var emprestimo in emprestimos){
 			Console.WriteLine(emprestimo);
 		}
 	}
 	
 	public void ListarLivros(){
+		
 		foreach(var livro in livros){
 			Console.WriteLine(livro);
 		}

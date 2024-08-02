@@ -13,3 +13,18 @@ C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\D
 C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.genruntimeconfig.cache
 C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\Debug\net8.0\ref\BiblioecaJefinho.dll
 C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.sourcelink.json
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\bin\Debug\net8.0\BiblioecaJefinho.exe
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\bin\Debug\net8.0\BiblioecaJefinho.deps.json
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\bin\Debug\net8.0\BiblioecaJefinho.runtimeconfig.json
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\bin\Debug\net8.0\BiblioecaJefinho.dll
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\bin\Debug\net8.0\BiblioecaJefinho.pdb
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.sourcelink.json
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.dll
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\refint\BiblioecaJefinho.dll
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.pdb
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.genruntimeconfig.cache
+C:\Users\joaop\OneDrive\Documentos\GitHub\BiblioecaJefinho\obj\Debug\net8.0\ref\BiblioecaJefinho.dll

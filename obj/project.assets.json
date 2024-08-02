@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\estudante\\.nuget\\packages\\": {}
+    "C:\\Users\\joaop\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\estudante\\Downloads\\Delphi\\Meu Primeiro Programa\\BiblioecaJefinho\\BiblioecaJefinho.csproj",
+      "projectUniqueName": "C:\\Users\\joaop\\OneDrive\\Documentos\\GitHub\\BiblioecaJefinho\\BiblioecaJefinho.csproj",
       "projectName": "BiblioecaJefinho",
-      "projectPath": "C:\\Users\\estudante\\Downloads\\Delphi\\Meu Primeiro Programa\\BiblioecaJefinho\\BiblioecaJefinho.csproj",
-      "packagesPath": "C:\\Users\\estudante\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\estudante\\Downloads\\Delphi\\Meu Primeiro Programa\\BiblioecaJefinho\\obj\\",
+      "projectPath": "C:\\Users\\joaop\\OneDrive\\Documentos\\GitHub\\BiblioecaJefinho\\BiblioecaJefinho.csproj",
+      "packagesPath": "C:\\Users\\joaop\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\joaop\\OneDrive\\Documentos\\GitHub\\BiblioecaJefinho\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\estudante\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\joaop\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

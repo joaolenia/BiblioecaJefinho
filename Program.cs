@@ -4,9 +4,9 @@ class Program
 	static void Main()
 	{
 		IBiblioteca biblioteca = new Biblioteca();
-
 		while (true)
 		{
+
 			Console.WriteLine("Escolha uma opção:");
 			Console.WriteLine("1. Adicionar Pessoa");
 			Console.WriteLine("2. Adicionar Livro");
