@@ -1,11 +1,11 @@
 public class Emprestimo
 {
 	public Pessoa Pessoa { get; set; }
-	public string Livro { get; set; }
+	public Livro Livro { get; set; }
 	public DateTime DataEmprestimo { get; set; }
 	public DateTime? DataDevolucao { get; set; }
 
-	public Emprestimo(Pessoa pessoa, string livro, DateTime dataEmprestimo)
+	public Emprestimo(Pessoa pessoa, Livro livro, DateTime dataEmprestimo)
 	{
 		Pessoa = pessoa;
 		Livro = livro;

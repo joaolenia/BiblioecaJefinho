@@ -29,11 +29,23 @@ public class Biblioteca : IBiblioteca
 			return;
 		}
 
-		Console.WriteLine("Digite o nome do livro:");
-		string livro = Console.ReadLine();
+		Console.WriteLine("Digite o titulo do livro:");
+		string titulo = Console.ReadLine();
+		
+		Livro livro = livros.Find(l => l.Titulo == titulo);
+
+		if (livro == null)
+		{
+			Console.WriteLine("Livro não encontrado.");
+			return;
+		}
+		else{
+		
 		Emprestimo emprestimo = new Emprestimo(pessoa, livro, DateTime.Now);
 		emprestimos.Add(emprestimo);
 		Console.WriteLine("Empréstimo realizado com sucesso!");
+		}
+	
 	}
 
 	public void DevolverLivro()
@@ -48,8 +60,16 @@ public class Biblioteca : IBiblioteca
 			return;
 		}
 
-		Console.WriteLine("Digite o nome do livro:");
-		string livro = Console.ReadLine();
+		Console.WriteLine("Digite o titulo do livro:");
+		string titulo = Console.ReadLine();
+		
+		Livro livro = livros.Find(l => l.Titulo == titulo);
+
+		if (livro == null)
+		{
+			Console.WriteLine("Livro não encontrado.");
+			return;
+		}
 		Emprestimo emprestimo = emprestimos.Find(e => e.Pessoa == pessoa && e.Livro == livro && !e.DataDevolucao.HasValue);
 
 		if (emprestimo == null)
