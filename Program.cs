@@ -9,10 +9,12 @@ class Program
 		{
 			Console.WriteLine("Escolha uma opção:");
 			Console.WriteLine("1. Adicionar Pessoa");
-			Console.WriteLine("2. Realizar Empréstimo");
-			Console.WriteLine("3. Devolver Livro");
-			Console.WriteLine("4. Listar Empréstimos");
-			Console.WriteLine("5. Sair");
+			Console.WriteLine("2. Adicionar Livro");
+			Console.WriteLine("3. Realizar Empréstimo");
+			Console.WriteLine("4. Devolver Livro");
+			Console.WriteLine("5. Listar Empréstimos");
+			Console.WriteLine("6. Listar Livros");
+			Console.WriteLine("7. Sair");
 
 			string opcao = Console.ReadLine();
 
@@ -21,16 +23,24 @@ class Program
 				case "1":
 					AdicionarPessoa(biblioteca);
 					break;
+					
 				case "2":
-					biblioteca.RealizarEmprestimo();
+					AdicionarLivro(biblioteca);
 					break;
 				case "3":
-					biblioteca.DevolverLivro();
+					biblioteca.RealizarEmprestimo();
 					break;
 				case "4":
-					biblioteca.ListarEmprestimos();
+					biblioteca.DevolverLivro();
 					break;
 				case "5":
+					biblioteca.ListarEmprestimos();
+					break;
+					
+				case "6":
+					biblioteca.ListarLivros();
+					break;
+				case "7":
 					return;
 				default:
 					Console.WriteLine("Opção inválida.");
@@ -66,5 +76,22 @@ class Program
 		{
 			Console.WriteLine("Tipo de pessoa inválido.");
 		}
+	}
+	
+		static void AdicionarLivro(IBiblioteca biblioteca)
+	{
+		Console.WriteLine("Digite a categoria do livro:");
+		string categoria = Console.ReadLine();
+
+		Console.WriteLine("Digite o titúlo:");
+		string titulo = Console.ReadLine();
+
+		Console.WriteLine("Digite o nome do autor:");
+		string autor = Console.ReadLine();
+		
+		Livro livro= new Livro(titulo,autor,categoria);
+		
+		biblioteca.AdicionarLivro(new Livro(titulo,autor,categoria));
+
 	}
 }

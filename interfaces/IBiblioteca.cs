@@ -6,4 +6,6 @@ public interface IBiblioteca
 	void RealizarEmprestimo();
 	void DevolverLivro();
 	void ListarEmprestimos();
+    void AdicionarLivro(Livro livro);
+	void ListarLivros();
 }

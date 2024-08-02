@@ -12,3 +12,4 @@ C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\D
 C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.pdb
 C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.genruntimeconfig.cache
 C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\Debug\net8.0\ref\BiblioecaJefinho.dll
+C:\Users\estudante\Downloads\Delphi\Meu Primeiro Programa\BiblioecaJefinho\obj\Debug\net8.0\BiblioecaJefinho.sourcelink.json
